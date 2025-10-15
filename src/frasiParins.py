@@ -2,7 +2,11 @@ from manim import *
 
 class Frase1(Scene):
     def construct(self):
-        frase = Tex("skibidi")
+        frase = Tex("CICADA:\n"+
+                    "\"Onde procede, o Tansillo,\n"+
+                    "che l'animo in tal progresso s'appaga del suo tormento?\n"+
+                    "onde procede quel sprone ch'il stimola sempre oltre quel che possiede?\"",
+                    font_size=35)   
 
         frase.move_to(ORIGIN)
         self.play(Write(frase))
@@ -10,7 +14,16 @@ class Frase1(Scene):
         
 class Frase2(Scene):
     def construct(self):
-        frase = Tex("skibidi")
+        frase = Tex("TANSILLO:\n \"Da questo, che ti dirò adesso.\n"+
+                    "Essendo l'intelletto divenuto all'apprension d'una certa e definita forma intelligibile,\n"+
+                    "l'intelletto non si ferma là.\n"+
+                    "Perché sempre vede che quel tutto che possiede, è cosa misurata,\n"+
+                    "e perciò non può essere bastante per sé, non buono da per sé, non bello da per sé;\n"+
+                    "perché non è l'universo, non è l'ente absoluto,\n"+
+                    "ma contratto ad esser questa natura, ad esser questa specie, questa forma.\n"+
+                    "Sempre dunque l’intelletto fa progresso verso quello che è veramente bello,\n"+
+                    "che non ha margine e circonscrizione alcuna.\"",
+                    font_size=35)
 
         frase.move_to(ORIGIN)
         self.play(Write(frase))
@@ -18,7 +31,9 @@ class Frase2(Scene):
 
 class Frase3(Scene):
     def construct(self):
-        frase = Tex("skibidi")
+        frase = Tex("Come la stella rossa che dalla sua chioma fiammeggiante\n"+
+                    "fa calare malattie, pestilenza e guerra",
+                    font_size=35)
 
         frase.move_to(ORIGIN)
         self.play(Write(frase))
@@ -26,7 +41,9 @@ class Frase3(Scene):
 
 class Frase4(Scene):
     def construct(self):
-        frase = Tex("skibidi")
+        frase = Tex("Quando muoiono i  pezzenti, non si  vedono comete;\n"+
+                    "i  cieli  stessi  fiammeggiano  annunziando  la  morte  dei  Principi",
+                    font_size=35)
 
         frase.move_to(ORIGIN)
         self.play(Write(frase))
@@ -34,7 +51,9 @@ class Frase4(Scene):
 
 class Frase5(Scene):
     def construct(self):
-        frase = Tex("skibidi")
+        frase = Tex("Dal movimento de l’humor collerico\n"+
+                    "gli animi de gli huomini sono incitati alla vendetta",
+                    font_size=35)
 
         frase.move_to(ORIGIN)
         self.play(Write(frase))
@@ -42,7 +61,11 @@ class Frase5(Scene):
 
 class Frase6(Scene):
     def construct(self):
-        frase = Tex("skibidi")
+        frase = Tex("Gli  huomini  fuggivano  per  i  boschi, lasciando le case loro,\n"+
+                    "sì come usciti fuori di senno, non si trovava chi avesse cura  de  gli  animali,\n"+
+                    "né  chi  lavorasse  le  terre,  solo  morti  si  vedevano,\n"+
+                    "solo ramarichi, stridi e pianti s’udivano",
+                    font_size=35)
 
         frase.move_to(ORIGIN)
         self.play(Write(frase))
@@ -50,7 +73,11 @@ class Frase6(Scene):
 
 class Frase7(Scene):
     def construct(self):
-        frase = Tex("skibidi")
+        frase = Tex("Venne un certo liquore nell’aere come fuoco, e parea che la terra ardesse,\n"+
+                    "e stette così per lo spazio del dire di due Paternoster;\n"+
+                    "dietro a questo venne un tempo molto scuro e tenebroso con un tuono grandissimo,\n"+
+                    "il quale durò fermamente per dire di tre Paternoster",
+                    font_size=35)
 
         frase.move_to(ORIGIN)
         self.play(Write(frase))
@@ -58,7 +85,10 @@ class Frase7(Scene):
 
 class Frase8(Scene):
     def construct(self):
-        frase = Tex("skibidi")
+        frase = Tex("Gran stragi alla Cristianità, onde papa Callisto III ordinò,\n"+
+                    "ch’in tutte le città nel mezzo giorni si suonassero le campane,\n"+
+                    "acciò in quel tempo i fedeli facessero orazioni per placare l’ira del cielo",
+                    font_size=35)
 
         frase.move_to(ORIGIN)
         self.play(Write(frase))
@@ -66,7 +96,18 @@ class Frase8(Scene):
 
 class Frase9(Scene):
     def construct(self):
-        frase = Tex("skibidi")
+        frase = Tex("Se il Sarsi vuole ch’io creda che i Babilonii\n"+
+                    "cocesser l’uova col girarle velocemente nella fionda, io lo crederò;\n"+
+                    "ma dirò bene, la cagione di tal effetto esser lontanissima da quella che gli viene attribuita,\n"+
+                    "e per trovar la vera io discorrerò così:\n"+
+                    "\"Se a noi non succede un effetto che ad altri altra volta è riuscito,\n"+
+                    "è necessario che noi nel nostro operare manchiamo di quello che fu causa della riuscita d’esso effetto,\n"+
+                    "e che non mancando a noi altro che una cosa sola, questa sola cosa sia la vera causa:\n"+
+                    "ora, a noi non mancano uova, né fionde, né uomini robusti che le girino,\n"+
+                    "e pur non si cuocono, anzi, se fusser calde, si raffreddano più presto;\n"+
+                    "e perché non ci manca altro che l’esser di Babilonia,\n"+
+                    "adunque l’esser Babilonie è la causa dell’indurirsi l’uova, e non l’attrizion dell’aria\"",
+                    font_size=35)
 
         frase.move_to(ORIGIN)
         self.play(Write(frase))
@@ -74,7 +115,10 @@ class Frase9(Scene):
 
 class Frase10(Scene):
     def construct(self):
-        frase = Tex("skibidi")
+        frase = Tex("\"Haec insomni studio per gelidas noctes Coelitus deducta\"\n"+
+                    "Queste cose tratte dal cielo con studio insonne nel gelo delle notti\n"+
+                    "(Cassini)",
+                    font_size=35)
 
         frase.move_to(ORIGIN)
         self.play(Write(frase))
@@ -82,7 +126,9 @@ class Frase10(Scene):
 
 class Frase11(Scene):
     def construct(self):
-        frase = Tex("skibidi")
+        frase = Tex("\"Sire, ce baragouineur là ne scait se qu’il dit\"\n"+
+                    "Sire, questo fanfarone non sa quello che dice",
+                    font_size=35)
 
         frase.move_to(ORIGIN)
         self.play(Write(frase))

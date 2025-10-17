@@ -75,26 +75,21 @@ class SolarSystemGeocentric(Scene):
         moon_orbit = Circle(planets[3].get_center()[1] - planets[4].get_center()[1], color=BLACK)\
             .rotate(-90*DEGREES)\
             .add_updater(lambda x: x.move_to(planets[3].get_center()))
-        moon_path = TracedPath(
-            lambda: moon.get_center(),
-            stroke_width=1,
-            dissipating_time=0.5,
-        )
   
         self.play(FadeOut(planets_names))
         
         self.add(moon_orbit)
         
         planets_rotating = AnimationGroup (
-            Rotate(planets[1], TAU*4, about_point=planets[0].get_center(), rate_func=linear, run_time=5),
-            Rotate(planets[2], TAU*4, about_point=planets[0].get_center(), rate_func=linear, run_time=5),
+            Rotate(planets[1], TAU*6, about_point=planets[0].get_center(), rate_func=linear, run_time=5),
+            Rotate(planets[2], TAU*5, about_point=planets[0].get_center(), rate_func=linear, run_time=5),
             AnimationGroup(
                 Rotate(planets[3], TAU*4, about_point=planets[0].get_center(), rate_func=linear, run_time=5),
                 MoveAlongPath(moon, moon_orbit, rate_func=linear, run_time=5),
             ),
-            Rotate(planets[5], TAU*4, about_point=planets[0].get_center(), rate_func=linear, run_time=5),
-            Rotate(planets[6], TAU*4, about_point=planets[0].get_center(), rate_func=linear, run_time=5),
-            Rotate(planets[7], TAU*4, about_point=planets[0].get_center(), rate_func=linear, run_time=5),
+            Rotate(planets[5], TAU*3, about_point=planets[0].get_center(), rate_func=linear, run_time=5),
+            Rotate(planets[6], TAU*2, about_point=planets[0].get_center(), rate_func=linear, run_time=5),
+            Rotate(planets[7], TAU*1, about_point=planets[0].get_center(), rate_func=linear, run_time=5),
             lag_ratio=0.1
         )
         

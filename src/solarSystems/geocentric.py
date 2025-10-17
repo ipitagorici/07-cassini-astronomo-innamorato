@@ -86,13 +86,13 @@ class SolarSystemGeocentric(Scene):
         self.add(mercury_orbit, venus_orbit) 
     
         planets_rotating = AnimationGroup (
-            Rotate(planets[1], TAU*4, about_point=planets[0].get_center(), rate_func=linear, run_time=5),
-            Rotate(planets[2], TAU*4, about_point=planets[0].get_center(), rate_func=linear, run_time=5),
-            Rotate(planets[3], TAU*4, about_point=planets[0].get_center(), rate_func=linear, run_time=5),
+            Rotate(planets[1], TAU*7, about_point=planets[0].get_center(), rate_func=linear, run_time=5),
+            Rotate(planets[2], TAU*6, about_point=planets[0].get_center(), rate_func=linear, run_time=5),
+            Rotate(planets[3], TAU*5, about_point=planets[0].get_center(), rate_func=linear, run_time=5),
             Rotate(planets[4], TAU*4, about_point=planets[0].get_center(), rate_func=linear, run_time=5),
-            Rotate(planets[5], TAU*4, about_point=planets[0].get_center(), rate_func=linear, run_time=5),
-            Rotate(planets[6], TAU*4, about_point=planets[0].get_center(), rate_func=linear, run_time=5),
-            Rotate(planets[7], TAU*4, about_point=planets[0].get_center(), rate_func=linear, run_time=5),
+            Rotate(planets[5], TAU*3, about_point=planets[0].get_center(), rate_func=linear, run_time=5),
+            Rotate(planets[6], TAU*2, about_point=planets[0].get_center(), rate_func=linear, run_time=5),
+            Rotate(planets[7], TAU*1, about_point=planets[0].get_center(), rate_func=linear, run_time=5),
             lag_ratio=0.1
         )
         
